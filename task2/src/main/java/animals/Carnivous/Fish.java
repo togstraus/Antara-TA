@@ -1,10 +1,12 @@
 package animals.Carnivous;
 
 import animals.Actions.Swim;
+import model.Size;
 
 public class Fish extends Carnivorous implements Swim {
-    public Fish(String name) {
+    public Fish(String name, Size size) {
         setName(name);
+        setSize(size);
     }
 
     public void swim() {
