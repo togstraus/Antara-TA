@@ -14,11 +14,9 @@ public class Eagle extends Herbivore implements Fly, Voice, Run {
     public String getVoice() {
         return "курлык";
     }
-
     public void run() {
         System.out.printf("%s бегает. \n", getName());
     }
-
     public void fly() {
         System.out.printf("%s летает. \n", getName());
     }

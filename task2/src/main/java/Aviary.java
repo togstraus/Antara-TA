@@ -16,9 +16,6 @@ public class Aviary<T extends Animal> {
         this.size = size;
     }
 
-
-
-
     public void add(T animal) {
         if (animal.getSize().ordinal() >= this.size.ordinal()) {
             aviary.add(animal);
@@ -28,12 +25,10 @@ public class Aviary<T extends Animal> {
         }
 
     }
-
     public void remove(T animal) {
         aviary.remove(animal);
         System.out.printf("%s удален\n", animal.getName());
     }
-
     public T info(String name) {
         for (T animal : aviary) {
             if (animal.getName().equals(name)) {
@@ -42,5 +37,4 @@ public class Aviary<T extends Animal> {
         }
         return null;
     }
-
 }

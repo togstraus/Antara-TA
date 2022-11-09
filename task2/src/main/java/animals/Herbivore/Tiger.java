@@ -15,11 +15,9 @@ public class Tiger extends Herbivore implements Voice, Run, Swim {
     public void swim() {
         System.out.printf("%s плавает. \n", getName());
     }
-
     public String getVoice() {
         return "Мурмя";
     }
-
     public void run() {
         System.out.printf("%s несется. \n", getName());
     }

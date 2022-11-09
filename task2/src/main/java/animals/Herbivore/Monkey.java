@@ -14,11 +14,9 @@ public class Monkey extends Herbivore implements Voice, Run, Swim {
     public void swim() {
         System.out.printf("%s плавает. \n", getName());
     }
-
     public String getVoice() {
         return "Здравствуйте, сударь!";
     }
-
     public void run() {
         System.out.printf("%s бегает. \n", getName());
     }
