@@ -3,10 +3,12 @@ package animals.Herbivore;
 import animals.Actions.Run;
 import animals.Actions.Swim;
 import animals.Actions.Voice;
+import model.Size;
 
 public class Monkey extends Herbivore implements Voice, Run, Swim {
-    public Monkey(String name) {
+    public Monkey(String name, Size size) {
         setName(name);
+        setSize(size);
     }
 
     public void swim() {

@@ -3,11 +3,13 @@ package animals.Herbivore;
 import animals.Actions.Run;
 import animals.Actions.Swim;
 import animals.Actions.Voice;
+import model.Size;
 
 public class Tiger extends Herbivore implements Voice, Run, Swim {
 
-    public Tiger(String name) {
+    public Tiger(String name, Size size) {
         setName(name);
+        setSize(size);
     }
 
     public void swim() {

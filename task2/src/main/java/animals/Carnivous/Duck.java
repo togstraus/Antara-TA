@@ -4,11 +4,13 @@ import animals.Actions.Fly;
 import animals.Actions.Run;
 import animals.Actions.Swim;
 import animals.Actions.Voice;
+import model.Size;
 
 public class Duck extends Carnivorous implements Fly, Run, Swim, Voice {
 
-    public Duck(String name) {
+    public Duck(String name, Size size) {
         setName(name);
+        setSize(size);
     }
 
     public void swim() {

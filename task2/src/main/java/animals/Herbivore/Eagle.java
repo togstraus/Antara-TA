@@ -3,10 +3,12 @@ package animals.Herbivore;
 import animals.Actions.Fly;
 import animals.Actions.Run;
 import animals.Actions.Voice;
+import model.Size;
 
 public class Eagle extends Herbivore implements Fly, Voice, Run {
-    public Eagle(String name) {
+    public Eagle(String name, Size size) {
         setName(name);
+        setSize(size);
     }
 
     public String getVoice() {
