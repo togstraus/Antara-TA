@@ -10,7 +10,6 @@ public class Worker {
         System.out.print("Работник покормил животное. ");
         animal.eat(food);
     }
-
     public void getVoice(Voice object) {
         if (object instanceof Animal animal) {
             System.out.println("Отдан приказ голос. " + animal.getName() +
