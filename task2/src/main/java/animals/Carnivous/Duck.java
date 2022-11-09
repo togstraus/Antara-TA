@@ -14,15 +14,12 @@ public class Duck extends Carnivorous implements Fly, Run, Swim, Voice {
     public void swim() {
         System.out.printf("%s плавает. \n", getName());
     }
-
     public String getVoice() {
         return "кря";
     }
-
     public void fly() {
         System.out.printf("%s летает. \n", getName());
     }
-
     public void run() {
         System.out.printf("%s бегает. \n", getName());
     }

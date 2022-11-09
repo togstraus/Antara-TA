@@ -8,9 +8,7 @@ import lombok.Setter;
 @Setter
 public abstract class Animal {
 
-
     private String name;
 
     public abstract boolean eat(Food food);
-
 }

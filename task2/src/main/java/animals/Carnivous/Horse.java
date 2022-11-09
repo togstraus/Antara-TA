@@ -13,11 +13,9 @@ public class Horse extends Carnivorous implements Voice, Run, Swim {
     public String getVoice() {
         return "игого";
     }
-
     public void run() {
         System.out.printf("%s бегает. \n", getName());
     }
-
     public void swim() {
         System.out.printf("%s плавает. \n", getName());
     }
